@@ -11,7 +11,7 @@ services:
       ASPNETCORE_CONNECTIONSTRING: Server=mysql;Port=3306;Database=gigahouse;Uid=root;Pwd=@Gigahouse123;
     ports:
       - "8080:8080"
-      - "8081:8081"
+      - "8082:8081"
     depends_on:
       - mysql
 
