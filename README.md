@@ -1,4 +1,5 @@
-Projeto Giga House
+<h1>Projeto Giga House</h1>
+
 Bem-vindo ao repositório do projeto Giga House! Este projeto consiste em uma API desenvolvida em .NET Core que permite a criação de projetos e a adição de tarefas associadas a esses projetos. Além disso, inclui uma integração com Docker para facilitar o gerenciamento e a implantação do ambiente de desenvolvimento.
 
 Funcionalidades
@@ -13,12 +14,10 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 Clone o repositório:
 
-<pre>
 ```bash
-Copiar código
 git clone https://github.com/ferraronet/gigahouse.git
-cd giga-house
-</pre>
+cd gigahouse
+```
 
 Configuração do Docker Compose:
 
@@ -28,11 +27,10 @@ Arquivo docker-compose.yml:
 O arquivo docker-compose.yml está configurado para levantar dois serviços:
 app: Contém a aplicação .NET Core exposta nas portas 8080 e 8081.
 mysql: Banco de dados MySQL exposto na porta 3306.
+
 Exemplo de docker-compose.yml:
 
-<pre>
 ```yaml
-Copiar código
 version: '3.8'
 
 services:
@@ -65,17 +63,23 @@ services:
 volumes:
   mysql_data:
     driver: local
-</pre>
+```
+
 Executando o Docker Compose:
 
 No diretório raiz do projeto (onde está o arquivo docker-compose.yml), execute o comando:
-Copiar código
+
+```bash
 docker-compose up -d
+```
+
 Isso irá construir as imagens Docker e iniciar os containers especificados no arquivo docker-compose.yml.
 Acessando a API:
 
-Após iniciar os containers, você pode acessar a API através do Swagger em http://localhost:8080/swagger.
+Após iniciar os containers, você pode acessar a API através do Swagger em http://localhost:8080/swagger/index.html.
+
 Utilize o Postman ou outra ferramenta para fazer requisições HTTP à API para criar projetos, adicionar tarefas, etc.
+
 Contribuindo
 Se você deseja contribuir com melhorias ou correções para o projeto Giga House, sinta-se à vontade para abrir uma issue ou enviar um pull request. Agradecemos sua colaboração!
 
