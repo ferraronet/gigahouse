@@ -12,11 +12,13 @@ Configuração do Ambiente com Docker Compose
 Para executar o projeto localmente, siga os passos abaixo:
 
 Clone o repositório:
-
+'''
 bash
 Copiar código
 git clone https://github.com/ferraronet/gigahouse.git
 cd giga-house
+'''
+
 Configuração do Docker Compose:
 
 Certifique-se de ter o Docker e o Docker Compose instalados em seu ambiente de desenvolvimento.
