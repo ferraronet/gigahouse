@@ -12,12 +12,13 @@ Configuração do Ambiente com Docker Compose
 Para executar o projeto localmente, siga os passos abaixo:
 
 Clone o repositório:
-'''
-bash
+
+<pre>
+```bash
 Copiar código
 git clone https://github.com/ferraronet/gigahouse.git
 cd giga-house
-'''
+</pre>
 
 Configuração do Docker Compose:
 
@@ -29,7 +30,8 @@ app: Contém a aplicação .NET Core exposta nas portas 8080 e 8081.
 mysql: Banco de dados MySQL exposto na porta 3306.
 Exemplo de docker-compose.yml:
 
-yaml
+<pre>
+```yaml
 Copiar código
 version: '3.8'
 
@@ -63,6 +65,7 @@ services:
 volumes:
   mysql_data:
     driver: local
+</pre>
 Executando o Docker Compose:
 
 No diretório raiz do projeto (onde está o arquivo docker-compose.yml), execute o comando:
