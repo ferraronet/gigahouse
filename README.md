@@ -37,8 +37,8 @@ docker-compose up -d
 ```
 
 Isso irá construir as imagens Docker e iniciar os containers especificados no arquivo docker-compose.yml.<br>
-app: Contém a aplicação .NET Core exposta nas portas 8080 e 8082.<br>
-mysql: Banco de dados MySQL exposto na porta 3306.<br>
+**app**: Contém a aplicação .NET Core exposta nas portas 8080 e 8082.<br>
+**mysql**: Banco de dados MySQL exposto na porta 3306.<br>
 
 <h3>Acessando a API</h3>
 
