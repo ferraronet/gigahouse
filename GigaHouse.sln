@@ -11,7 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GigaHouse.Data", "GigaHouse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GigaHouse.TaskList", "GigaHouse.TaskList\GigaHouse.TaskList.csproj", "{E5EFB975-F610-4D89-B16E-92372204E1DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigaHouse.Test", "GigaHouse.Test\GigaHouse.Test.csproj", "{2E274326-3970-41A9-98D9-241E475D6FD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GigaHouse.Test", "GigaHouse.Test\GigaHouse.Test.csproj", "{2E274326-3970-41A9-98D9-241E475D6FD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GigaHouse.Application", "GigaHouse.Application\GigaHouse.Application.csproj", "{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GigaHouse.Worker.Scheduler", "GigaHouse.Worker.Scheduler\GigaHouse.Worker.Scheduler.csproj", "{24F1EFB4-5000-4B95-8EDD-59295F9BFF9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GigaHouse.Worker.WebScraping", "GigaHouse.Worker.WebScraping\GigaHouse.Worker.WebScraping.csproj", "{73ADB0AB-CA26-4019-ACB0-523D3F2D36E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GigaHouse.Worker.WebAPI", "GigaHouse.Worker.WebAPI\GigaHouse.Worker.WebAPI.csproj", "{F61C1095-0042-4DEA-ACAE-66E2F7788619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigaHouse.WebScraping", "GigaHouse.WebScraping\GigaHouse.WebScraping.csproj", "{3596D917-6A69-4AE6-9505-F3E4F20088B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +49,26 @@ Global
 		{2E274326-3970-41A9-98D9-241E475D6FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E274326-3970-41A9-98D9-241E475D6FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E274326-3970-41A9-98D9-241E475D6FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F1EFB4-5000-4B95-8EDD-59295F9BFF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F1EFB4-5000-4B95-8EDD-59295F9BFF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F1EFB4-5000-4B95-8EDD-59295F9BFF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F1EFB4-5000-4B95-8EDD-59295F9BFF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73ADB0AB-CA26-4019-ACB0-523D3F2D36E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73ADB0AB-CA26-4019-ACB0-523D3F2D36E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73ADB0AB-CA26-4019-ACB0-523D3F2D36E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73ADB0AB-CA26-4019-ACB0-523D3F2D36E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61C1095-0042-4DEA-ACAE-66E2F7788619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61C1095-0042-4DEA-ACAE-66E2F7788619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61C1095-0042-4DEA-ACAE-66E2F7788619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61C1095-0042-4DEA-ACAE-66E2F7788619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3596D917-6A69-4AE6-9505-F3E4F20088B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3596D917-6A69-4AE6-9505-F3E4F20088B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3596D917-6A69-4AE6-9505-F3E4F20088B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3596D917-6A69-4AE6-9505-F3E4F20088B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

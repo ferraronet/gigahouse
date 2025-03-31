@@ -1,4 +1,4 @@
-﻿using GigaHouse.Core.Interfaces;
+﻿using GigaHouse.Data.Interfaces;
 
 
 namespace GigaHouse.Infrastructure.Interfaces.Repositories

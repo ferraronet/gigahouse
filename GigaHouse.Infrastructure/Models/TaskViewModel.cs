@@ -1,33 +1,30 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿//using System.ComponentModel.DataAnnotations;
 
-namespace GigaHouse.Infrastructure.Models
-{
-    public class TaskViewModel
-    {
-        private int _status;
+//namespace GigaHouse.Infrastructure.Models
+//{
+//    public class TaskViewModel
+//    {
+//        private int _status;
 
-        public int Id { get; set; }
+//        public Guid Id { get; set; }
 
-        [Required, StringLength(maximumLength: 100, MinimumLength = 2)]
-        public string Name { get; set; } = string.Empty;
+//        [StringLength(maximumLength: 2048, MinimumLength = 5)]
+//        public required string Link { get; set; }
 
-        [StringLength(maximumLength: 2048)]
-        public string? Description { get; set; }
+//        public Guid ProjectId { get; set; }
 
-        public int ProjectId { get; set; }
+//        public Guid ProductId { get; set; }
 
-        public int Status
-        {
-            set
-            {
-                _status = value;
-            }
-        }
+//        public Guid TaskCssSelectorId { get; set; }
 
-        public string StatusTask => ((Core.Enums.TaskStatus)_status).ToString();
+//        //public int Status
+//        //{
+//        //    set
+//        //    {
+//        //        _status = value;
+//        //    }
+//        //}
 
-        public DateTime CreatedAt { get; set; }
-
-        public DateTime UpdatedAt { get; set; }
-    }
-}
+//        public string StatusTask => ((Core.Enums.TaskStatus)_status).ToString();
+//    }
+//}

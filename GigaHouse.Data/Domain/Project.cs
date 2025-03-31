@@ -1,12 +1,16 @@
-﻿namespace GigaHouse.Data.Domain
+﻿using GigaHouse.Core.Enums;
+using GigaHouse.Data.Common;
+
+namespace GigaHouse.Data.Domain
 {
-    public class Project
+    public class Project : BaseEntity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
+        
+        public string Link { get; set; }
+
+        public ProjectStatus Status { get; set; }
+
         public List<Task> Tasks { get; set; }
-        public int Status { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
     }
 }

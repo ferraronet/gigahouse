@@ -1,0 +1,7 @@
+{
+  "GigaHouse.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Git\\base\\GigaHouse.Application",
+  "GigaHouse.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Git\\base\\GigaHouse.Core",
+  "GigaHouse.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Git\\base\\GigaHouse.Data",
+  "GigaHouse.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Git\\base\\GigaHouse.Infrastructure",
+  "GigaHouse.TaskList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Git\\base\\GigaHouse.TaskList"
+}

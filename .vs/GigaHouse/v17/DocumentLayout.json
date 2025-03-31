@@ -1,30 +1,398 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Git\\TaskList\\",
+  "WorkspaceRootPath": "C:\\Git\\base\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|c:\\git\\tasklist\\gigahouse.tasklist\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|solutionrelative:gigahouse.tasklist\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|c:\\git\\tasklist\\gigahouse.tasklist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|solutionrelative:gigahouse.tasklist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|c:\\git\\tasklist\\gigahouse.tasklist\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|solutionrelative:gigahouse.tasklist\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\tasklist\\gigahouse.infrastructure\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|c:\\git\\tasklist\\gigahouse.tasklist\\gigahouse.tasklist.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|solutionrelative:gigahouse.tasklist\\gigahouse.tasklist.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{FF57B363-FC10-4822-977F-C50205E4A35A}|GigaHouse.Data\\GigaHouse.Data.csproj|c:\\git\\base\\gigahouse.data\\common\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF57B363-FC10-4822-977F-C50205E4A35A}|GigaHouse.Data\\GigaHouse.Data.csproj|solutionrelative:gigahouse.data\\common\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|c:\\git\\tasklist\\gigahouse.tasklist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|solutionrelative:gigahouse.tasklist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FF57B363-FC10-4822-977F-C50205E4A35A}|GigaHouse.Data\\GigaHouse.Data.csproj|c:\\git\\base\\gigahouse.data\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF57B363-FC10-4822-977F-C50205E4A35A}|GigaHouse.Data\\GigaHouse.Data.csproj|solutionrelative:gigahouse.data\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\services\\scraperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\services\\scraperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F1EFB4-5000-4B95-8EDD-59295F9BFF9A}|GigaHouse.Worker.Scheduler\\GigaHouse.Worker.Scheduler.csproj|c:\\git\\base\\gigahouse.worker.scheduler\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F1EFB4-5000-4B95-8EDD-59295F9BFF9A}|GigaHouse.Worker.Scheduler\\GigaHouse.Worker.Scheduler.csproj|solutionrelative:gigahouse.worker.scheduler\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|c:\\git\\base\\gigahouse.tasklist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|solutionrelative:gigahouse.tasklist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF57B363-FC10-4822-977F-C50205E4A35A}|GigaHouse.Data\\GigaHouse.Data.csproj|c:\\git\\base\\gigahouse.data\\domain\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF57B363-FC10-4822-977F-C50205E4A35A}|GigaHouse.Data\\GigaHouse.Data.csproj|solutionrelative:gigahouse.data\\domain\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\services\\userproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\services\\userproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\handlerslayer\\userproducts\\userproductcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\handlerslayer\\userproducts\\userproductcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\handlerslayer\\userproducts\\messageuserproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\handlerslayer\\userproducts\\messageuserproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\handlerslayer\\tasks\\taskcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\handlerslayer\\tasks\\taskcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\handlerslayer\\tasks\\sagahandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\handlerslayer\\tasks\\sagahandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\handlerslayer\\tasks\\messagetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\handlerslayer\\tasks\\messagetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\handlersscraping\\tasks\\taskscrapingeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\handlersscraping\\tasks\\taskscrapingeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\handlersscraping\\tasks\\messagetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\handlersscraping\\tasks\\messagetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\create\\createhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\create\\createhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\events\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\events\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\create\\createprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\create\\createprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\create\\createhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\create\\createhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|c:\\git\\base\\gigahouse.tasklist\\controllers\\userproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|solutionrelative:gigahouse.tasklist\\controllers\\userproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\get\\gethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\get\\gethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\projectproducts\\create\\createhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\projectproducts\\create\\createhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\create\\createresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\create\\createresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\create\\createcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\create\\createcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|c:\\git\\base\\gigahouse.tasklist\\controllers\\productmediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|solutionrelative:gigahouse.tasklist\\controllers\\productmediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|c:\\git\\base\\gigahouse.tasklist\\controllers\\projectproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|solutionrelative:gigahouse.tasklist\\controllers\\projectproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\mapping\\userproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\mapping\\userproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\mapping\\productmediaprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\mapping\\productmediaprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\get\\getrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\get\\getrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\get\\getcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\get\\getcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\handlerslayer\\productmedias\\productmediacreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\handlerslayer\\productmedias\\productmediacreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\handlerslayer\\productmedias\\sagahandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\handlerslayer\\productmedias\\sagahandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\events\\userproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\events\\userproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\productmedias\\create\\createhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\productmedias\\create\\createhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\productmedias\\getlist\\getlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\productmedias\\getlist\\getlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|c:\\git\\base\\gigahouse.tasklist\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|solutionrelative:gigahouse.tasklist\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\getlist\\getlistvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\getlist\\getlistvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\products\\getlist\\getlistrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\products\\getlist\\getlistrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\getlist\\getlistresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\getlist\\getlistresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\getlist\\getlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\getlist\\getlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\getlist\\getlistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\getlist\\getlistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\getlist\\getlistprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\getlist\\getlistprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\get\\getresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\get\\getresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\get\\getresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\get\\getresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\delete\\deleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\delete\\deleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\delete\\deleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\delete\\deleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\create\\createrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\create\\createrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\delete\\deleterequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\delete\\deleterequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\delete\\deleteprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\delete\\deleteprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\delete\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\delete\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\projectproducts\\create\\createcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\projectproducts\\create\\createcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\userproducts\\get\\getvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\userproducts\\get\\getvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|c:\\git\\base\\gigahouse.tasklist\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|solutionrelative:gigahouse.tasklist\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|c:\\git\\base\\gigahouse.tasklist\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EFB975-F610-4D89-B16E-92372204E1DA}|GigaHouse.TaskList\\GigaHouse.TaskList.csproj|solutionrelative:gigahouse.tasklist\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Git\\base\\GigaHouse.Data\\Migrations\\20250331144832_AddTimesPerDay_Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GigaHouse.Data\\Migrations\\20250331144832_AddTimesPerDay_Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\update\\updatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\update\\updatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF57B363-FC10-4822-977F-C50205E4A35A}|GigaHouse.Data\\GigaHouse.Data.csproj|c:\\git\\base\\gigahouse.data\\mapping\\taskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF57B363-FC10-4822-977F-C50205E4A35A}|GigaHouse.Data\\GigaHouse.Data.csproj|solutionrelative:gigahouse.data\\mapping\\taskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\update\\updatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\update\\updatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\update\\updaterequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\update\\updaterequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\create\\createrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\create\\createrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\update\\updateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\update\\updateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\update\\updateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\update\\updateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\update\\updaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\update\\updaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\update\\updatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\update\\updatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\getlist\\getlistvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\getlist\\getlistvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\getlist\\getlistresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\getlist\\getlistresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\getlist\\getlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\getlist\\getlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\getlist\\getlistrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\getlist\\getlistrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\getlist\\getlistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\getlist\\getlistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\getlist\\getlistprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\getlist\\getlistprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\getlist\\getlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\getlist\\getlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\getlist\\getlistcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\getlist\\getlistcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\get\\getvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\get\\getvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\get\\getresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\get\\getresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\get\\getresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\get\\getresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\get\\getrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\get\\getrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\get\\getrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\get\\getrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\get\\getprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\get\\getprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\get\\gethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\get\\gethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\get\\getcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\get\\getcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\delete\\deletevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\delete\\deletevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\delete\\deleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\delete\\deleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\delete\\deleterequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\delete\\deleterequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\delete\\deleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\delete\\deleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\delete\\deleteprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\delete\\deleteprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\delete\\deletehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\delete\\deletehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\delete\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\delete\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\create\\createresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\create\\createresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\create\\createvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\create\\createvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\create\\createresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\create\\createresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\tasks\\create\\createrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\tasks\\create\\createrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|c:\\git\\base\\gigahouse.infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20205A33-3275-4385-BEE8-79309883E7E1}|GigaHouse.Infrastructure\\GigaHouse.Infrastructure.csproj|solutionrelative:gigahouse.infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\products\\getpricelist\\getpricelisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\products\\getpricelist\\getpricelisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\products\\getpricelist\\getpricelistresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\products\\getpricelist\\getpricelistresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ADB0AB-CA26-4019-ACB0-523D3F2D36E0}|GigaHouse.Worker.WebScraping\\GigaHouse.Worker.WebScraping.csproj|c:\\git\\base\\gigahouse.worker.webscraping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73ADB0AB-CA26-4019-ACB0-523D3F2D36E0}|GigaHouse.Worker.WebScraping\\GigaHouse.Worker.WebScraping.csproj|solutionrelative:gigahouse.worker.webscraping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\users\\create\\createhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\users\\create\\createhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|c:\\git\\base\\gigahouse.application\\auth\\authenticateuser\\authenticateuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95CBD11-4B71-4BF7-A966-5E5C28A19F44}|GigaHouse.Application\\GigaHouse.Application.csproj|solutionrelative:gigahouse.application\\auth\\authenticateuser\\authenticateuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ADB0AB-CA26-4019-ACB0-523D3F2D36E0}|GigaHouse.Worker.WebScraping\\GigaHouse.Worker.WebScraping.csproj|c:\\git\\base\\gigahouse.worker.webscraping\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ADB0AB-CA26-4019-ACB0-523D3F2D36E0}|GigaHouse.Worker.WebScraping\\GigaHouse.Worker.WebScraping.csproj|solutionrelative:gigahouse.worker.webscraping\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,77 +411,1271 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Git\\TaskList\\GigaHouse.TaskList\\Dockerfile",
-              "RelativeDocumentMoniker": "GigaHouse.TaskList\\Dockerfile",
-              "ToolTip": "C:\\Git\\TaskList\\GigaHouse.TaskList\\Dockerfile",
-              "RelativeToolTip": "GigaHouse.TaskList\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-17T23:07:45.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Git\\TaskList\\GigaHouse.Infrastructure\\Services\\TaskService.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\Services\\TaskService.cs",
               "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\Services\\TaskService.cs",
-              "ToolTip": "C:\\Git\\TaskList\\GigaHouse.Infrastructure\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\Services\\TaskService.cs",
               "RelativeToolTip": "GigaHouse.Infrastructure\\Services\\TaskService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAWwCcAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:20:57.609Z",
+              "WhenOpened": "2025-03-31T20:18:25.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Git\\TaskList\\GigaHouse.TaskList\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "GigaHouse.TaskList\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Git\\TaskList\\GigaHouse.TaskList\\Properties\\launchSettings.json",
-              "RelativeToolTip": "GigaHouse.TaskList\\Properties\\launchSettings.json",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-17T19:24:31.21Z",
+              "DocumentIndex": 14,
+              "Title": "MessageTask.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersScraping\\Tasks\\MessageTask.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\HandlersScraping\\Tasks\\MessageTask.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersScraping\\Tasks\\MessageTask.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\HandlersScraping\\Tasks\\MessageTask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:14:28.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\Events\\Task.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\Events\\Task.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\Events\\Task.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\Events\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:13:30.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Create\\CreateHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Create\\CreateHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Create\\CreateHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Create\\CreateHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:12:42.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Create\\CreateHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Create\\CreateHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:07:07.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserProductCreatedEventHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\UserProducts\\UserProductCreatedEventHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\HandlersLayer\\UserProducts\\UserProductCreatedEventHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\UserProducts\\UserProductCreatedEventHandler.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\HandlersLayer\\UserProducts\\UserProductCreatedEventHandler.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAIwCcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:55:10.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GigaHouse.TaskList",
-              "DocumentMoniker": "C:\\Git\\TaskList\\GigaHouse.TaskList\\GigaHouse.TaskList.csproj",
-              "RelativeDocumentMoniker": "GigaHouse.TaskList\\GigaHouse.TaskList.csproj",
-              "ToolTip": "C:\\Git\\TaskList\\GigaHouse.TaskList\\GigaHouse.TaskList.csproj",
-              "RelativeToolTip": "GigaHouse.TaskList\\GigaHouse.TaskList.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-17T19:11:54.728Z"
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Worker.Scheduler\\Worker.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Worker.Scheduler\\Worker.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Worker.Scheduler\\Worker.cs",
+              "RelativeToolTip": "GigaHouse.Worker.Scheduler\\Worker.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T23:31:32.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Git\\TaskList\\GigaHouse.TaskList\\appsettings.json",
-              "RelativeDocumentMoniker": "GigaHouse.TaskList\\appsettings.json",
-              "ToolTip": "C:\\Git\\TaskList\\GigaHouse.TaskList\\appsettings.json",
-              "RelativeToolTip": "GigaHouse.TaskList\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-17T04:03:46.949Z"
+              "DocumentIndex": 6,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Data\\Domain\\Task.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Data\\Domain\\Task.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Data\\Domain\\Task.cs",
+              "RelativeToolTip": "GigaHouse.Data\\Domain\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:42:24.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MessageTask.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\Tasks\\MessageTask.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\HandlersLayer\\Tasks\\MessageTask.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\Tasks\\MessageTask.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\HandlersLayer\\Tasks\\MessageTask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:14:37.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Git\\TaskList\\GigaHouse.TaskList\\Program.cs",
-              "RelativeDocumentMoniker": "GigaHouse.TaskList\\Program.cs",
-              "ToolTip": "C:\\Git\\TaskList\\GigaHouse.TaskList\\Program.cs",
-              "RelativeToolTip": "GigaHouse.TaskList\\Program.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAmwCQAAAAqAAAA",
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Data\\Common\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Data\\Common\\BaseRepository.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Data\\Common\\BaseRepository.cs",
+              "RelativeToolTip": "GigaHouse.Data\\Common\\BaseRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwC0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T04:13:05.582Z",
+              "WhenOpened": "2025-03-27T20:44:30.106Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Data\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Data\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Data\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "GigaHouse.Data\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwB0AAACZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:42:18.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaskScrapingEventHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersScraping\\Tasks\\TaskScrapingEventHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\HandlersScraping\\Tasks\\TaskScrapingEventHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersScraping\\Tasks\\TaskScrapingEventHandler.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\HandlersScraping\\Tasks\\TaskScrapingEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:14:31.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.TaskList\\Program.cs",
+              "RelativeDocumentMoniker": "GigaHouse.TaskList\\Program.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.TaskList\\Program.cs",
+              "RelativeToolTip": "GigaHouse.TaskList\\Program.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAYwJ4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:35:58.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScraperService.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\Services\\ScraperService.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\Services\\ScraperService.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\Services\\ScraperService.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\Services\\ScraperService.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAADwv1IAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T23:08:27.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserProductService.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\Services\\UserProductService.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\Services\\UserProductService.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\Services\\UserProductService.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\Services\\UserProductService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwCIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:15:55.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MessageUserProduct.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\UserProducts\\MessageUserProduct.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\HandlersLayer\\UserProducts\\MessageUserProduct.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\UserProducts\\MessageUserProduct.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\HandlersLayer\\UserProducts\\MessageUserProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:20:25.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SagaHandlers.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\Tasks\\SagaHandlers.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\HandlersLayer\\Tasks\\SagaHandlers.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\Tasks\\SagaHandlers.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\HandlersLayer\\Tasks\\SagaHandlers.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA9wA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:44:59.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskCreatedEventHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\Tasks\\TaskCreatedEventHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\HandlersLayer\\Tasks\\TaskCreatedEventHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\Tasks\\TaskCreatedEventHandler.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\HandlersLayer\\Tasks\\TaskCreatedEventHandler.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwDEAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:44:59.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserProductProfile.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\Mapping\\UserProductProfile.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\Mapping\\UserProductProfile.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\Mapping\\UserProductProfile.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\Mapping\\UserProductProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:54:55.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProjectProductController.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.TaskList\\Controllers\\ProjectProductController.cs",
+              "RelativeDocumentMoniker": "GigaHouse.TaskList\\Controllers\\ProjectProductController.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.TaskList\\Controllers\\ProjectProductController.cs",
+              "RelativeToolTip": "GigaHouse.TaskList\\Controllers\\ProjectProductController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:58:00.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserProductController.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.TaskList\\Controllers\\UserProductController.cs",
+              "RelativeDocumentMoniker": "GigaHouse.TaskList\\Controllers\\UserProductController.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.TaskList\\Controllers\\UserProductController.cs",
+              "RelativeToolTip": "GigaHouse.TaskList\\Controllers\\UserProductController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAlwGUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:01:29.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductMediaProfile.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\Mapping\\ProductMediaProfile.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\Mapping\\ProductMediaProfile.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\Mapping\\ProductMediaProfile.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\Mapping\\ProductMediaProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:54:23.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateProfile.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateProfile.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Create\\CreateProfile.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateProfile.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Create\\CreateProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:36:59.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateResponse.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Create\\CreateResponse.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Create\\CreateResponse.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Create\\CreateResponse.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Create\\CreateResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:58:38.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateCommand.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Create\\CreateCommand.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Create\\CreateCommand.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Create\\CreateCommand.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Create\\CreateCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:58:59.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\ProjectProducts\\Create\\CreateHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\ProjectProducts\\Create\\CreateHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\ProjectProducts\\Create\\CreateHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\ProjectProducts\\Create\\CreateHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:01:23.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Get\\GetHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Get\\GetHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Get\\GetHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Get\\GetHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T16:15:44.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SagaHandlers.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\ProductMedias\\SagaHandlers.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\HandlersLayer\\ProductMedias\\SagaHandlers.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\ProductMedias\\SagaHandlers.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\HandlersLayer\\ProductMedias\\SagaHandlers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:52:56.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductMediaController.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.TaskList\\Controllers\\ProductMediaController.cs",
+              "RelativeDocumentMoniker": "GigaHouse.TaskList\\Controllers\\ProductMediaController.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.TaskList\\Controllers\\ProductMediaController.cs",
+              "RelativeToolTip": "GigaHouse.TaskList\\Controllers\\ProductMediaController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:24:40.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserProduct.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\Events\\UserProduct.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\Events\\UserProduct.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\Events\\UserProduct.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\Events\\UserProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:51:58.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\ProductMedias\\Create\\CreateHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\ProductMedias\\Create\\CreateHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\ProductMedias\\Create\\CreateHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\ProductMedias\\Create\\CreateHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:50:48.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetCommand.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Get\\GetCommand.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Get\\GetCommand.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Get\\GetCommand.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Get\\GetCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T16:17:49.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetListHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\ProductMedias\\GetList\\GetListHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\ProductMedias\\GetList\\GetListHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\ProductMedias\\GetList\\GetListHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\ProductMedias\\GetList\\GetListHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:50:36.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GetRequest.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Get\\GetRequest.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Get\\GetRequest.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Get\\GetRequest.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Get\\GetRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:27:20.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GetListValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\GetList\\GetListValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\GetList\\GetListValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\GetList\\GetListValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\GetList\\GetListValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:28:04.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GetListRequestValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Products\\GetList\\GetListRequestValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Products\\GetList\\GetListRequestValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Products\\GetList\\GetListRequestValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Products\\GetList\\GetListRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:47:16.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductMediaCreatedEventHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\ProductMedias\\ProductMediaCreatedEventHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\HandlersLayer\\ProductMedias\\ProductMediaCreatedEventHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\HandlersLayer\\ProductMedias\\ProductMediaCreatedEventHandler.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\HandlersLayer\\ProductMedias\\ProductMediaCreatedEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:48:41.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetListResult.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\GetList\\GetListResult.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\GetList\\GetListResult.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\GetList\\GetListResult.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\GetList\\GetListResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:28:01.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetListResponse.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\GetList\\GetListResponse.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\GetList\\GetListResponse.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\GetList\\GetListResponse.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\GetList\\GetListResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:46:57.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GetListRequest.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\GetList\\GetListRequest.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\GetList\\GetListRequest.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\GetList\\GetListRequest.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\GetList\\GetListRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:27:52.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.TaskList\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "GigaHouse.TaskList\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.TaskList\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "GigaHouse.TaskList\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA9wCgAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:44:59.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetListProfile.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\GetList\\GetListProfile.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\GetList\\GetListProfile.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\GetList\\GetListProfile.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\GetList\\GetListProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:27:48.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GetResult.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Get\\GetResult.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Get\\GetResult.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Get\\GetResult.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Get\\GetResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:27:30.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetResponse.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Get\\GetResponse.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Get\\GetResponse.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Get\\GetResponse.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Get\\GetResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:27:27.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DeleteResponse.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Delete\\DeleteResponse.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Delete\\DeleteResponse.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Delete\\DeleteResponse.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Delete\\DeleteResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T16:17:48.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DeleteRequest.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Delete\\DeleteRequest.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Delete\\DeleteRequest.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Delete\\DeleteRequest.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Delete\\DeleteRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T16:17:45.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateRequest.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Create\\CreateRequest.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Create\\CreateRequest.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Create\\CreateRequest.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Create\\CreateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T16:18:36.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DeleteRequestValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Delete\\DeleteRequestValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Delete\\DeleteRequestValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Delete\\DeleteRequestValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Delete\\DeleteRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T16:17:47.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DeleteProfile.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Delete\\DeleteProfile.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Delete\\DeleteProfile.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Delete\\DeleteProfile.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Delete\\DeleteProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T16:17:43.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DeleteCommand.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Delete\\DeleteCommand.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Delete\\DeleteCommand.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Delete\\DeleteCommand.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Delete\\DeleteCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:26:40.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CreateCommand.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\ProjectProducts\\Create\\CreateCommand.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\ProjectProducts\\Create\\CreateCommand.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\ProjectProducts\\Create\\CreateCommand.cs",
+              "RelativeToolTip": "GigaHouse.Application\\ProjectProducts\\Create\\CreateCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:29:48.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "GetValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Get\\GetValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\UserProducts\\Get\\GetValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\UserProducts\\Get\\GetValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\UserProducts\\Get\\GetValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:27:33.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "TaskConfiguration.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Data\\Mapping\\TaskConfiguration.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Data\\Mapping\\TaskConfiguration.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Data\\Mapping\\TaskConfiguration.cs",
+              "RelativeToolTip": "GigaHouse.Data\\Mapping\\TaskConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:45:50.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "UpdateValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Update\\UpdateValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Update\\UpdateValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:40:08.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "UpdateResult.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateResult.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Update\\UpdateResult.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateResult.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Update\\UpdateResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:40:05.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "UpdateResponse.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateResponse.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Update\\UpdateResponse.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateResponse.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Update\\UpdateResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:39:57.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "UpdateRequestValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateRequestValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Update\\UpdateRequestValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateRequestValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Update\\UpdateRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:39:51.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.TaskList\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "GigaHouse.TaskList\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.TaskList\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "GigaHouse.TaskList\\Controllers\\TaskController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAYwEsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:25:27.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.TaskList\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "GigaHouse.TaskList\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.TaskList\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "GigaHouse.TaskList\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:44:59.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UpdateHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Update\\UpdateHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Update\\UpdateHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:46:12.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20250331144832_AddTimesPerDay_Task.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Data\\Migrations\\20250331144832_AddTimesPerDay_Task.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Data\\Migrations\\20250331144832_AddTimesPerDay_Task.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Data\\Migrations\\20250331144832_AddTimesPerDay_Task.cs",
+              "RelativeToolTip": "GigaHouse.Data\\Migrations\\20250331144832_AddTimesPerDay_Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:48:32.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "UpdateRequest.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateRequest.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Update\\UpdateRequest.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateRequest.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Update\\UpdateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:39:48.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UpdateCommand.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateCommand.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Update\\UpdateCommand.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Update\\UpdateCommand.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Update\\UpdateCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:39:42.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "GetListValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\GetList\\GetListValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\GetList\\GetListValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:39:39.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "GetListResponse.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListResponse.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\GetList\\GetListResponse.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListResponse.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\GetList\\GetListResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:39:29.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CreateRequestValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateRequestValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Create\\CreateRequestValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateRequestValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Create\\CreateRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:34:07.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "GetListRequestValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListRequestValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\GetList\\GetListRequestValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListRequestValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\GetList\\GetListRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:39:27.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "GetListResult.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListResult.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\GetList\\GetListResult.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListResult.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\GetList\\GetListResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:39:15.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "GetListProfile.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListProfile.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\GetList\\GetListProfile.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListProfile.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\GetList\\GetListProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:39:11.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "GetListRequest.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListRequest.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\GetList\\GetListRequest.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListRequest.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\GetList\\GetListRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:39:10.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "GetListHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\GetList\\GetListHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\GetList\\GetListHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:39:08.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "GetListCommand.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListCommand.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\GetList\\GetListCommand.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\GetList\\GetListCommand.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\GetList\\GetListCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:39:04.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "GetValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Get\\GetValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Get\\GetValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:38:59.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "GetResult.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetResult.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Get\\GetResult.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetResult.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Get\\GetResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:38:55.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "GetResponse.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetResponse.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Get\\GetResponse.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetResponse.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Get\\GetResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:38:50.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "GetRequestValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetRequestValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Get\\GetRequestValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetRequestValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Get\\GetRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:38:48.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "GetRequest.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetRequest.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Get\\GetRequest.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetRequest.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Get\\GetRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:38:47.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "GetProfile.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetProfile.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Get\\GetProfile.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetProfile.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Get\\GetProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:50.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "GetHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Get\\GetHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Get\\GetHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:49.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "GetCommand.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetCommand.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Get\\GetCommand.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Get\\GetCommand.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Get\\GetCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:47.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "DeleteValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Delete\\DeleteValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Delete\\DeleteValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:44.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "DeleteResponse.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteResponse.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Delete\\DeleteResponse.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteResponse.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Delete\\DeleteResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:43.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "DeleteRequestValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteRequestValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Delete\\DeleteRequestValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteRequestValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Delete\\DeleteRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:42.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "DeleteRequest.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteRequest.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Delete\\DeleteRequest.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteRequest.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Delete\\DeleteRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:41.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "DeleteProfile.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteProfile.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Delete\\DeleteProfile.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteProfile.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Delete\\DeleteProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:40.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "DeleteHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Delete\\DeleteHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Delete\\DeleteHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:38.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "DeleteCommand.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteCommand.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Delete\\DeleteCommand.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Delete\\DeleteCommand.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Delete\\DeleteCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:38.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "CreateValidator.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateValidator.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Create\\CreateValidator.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateValidator.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Create\\CreateValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:36:55.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "CreateResult.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateResult.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Create\\CreateResult.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateResult.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Create\\CreateResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:06.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "CreateResponse.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateResponse.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Create\\CreateResponse.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateResponse.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Create\\CreateResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:05.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "CreateRequest.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateRequest.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Tasks\\Create\\CreateRequest.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Tasks\\Create\\CreateRequest.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Tasks\\Create\\CreateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:37:01.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "GetPriceListHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Products\\GetPriceList\\GetPriceListHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Products\\GetPriceList\\GetPriceListHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Products\\GetPriceList\\GetPriceListHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Products\\GetPriceList\\GetPriceListHandler.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvyIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T22:43:21.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Infrastructure\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Infrastructure\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Infrastructure\\Services\\ProductService.cs",
+              "RelativeToolTip": "GigaHouse.Infrastructure\\Services\\ProductService.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAhwGcAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T22:49:53.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "GetPriceListResult.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Products\\GetPriceList\\GetPriceListResult.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Products\\GetPriceList\\GetPriceListResult.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Products\\GetPriceList\\GetPriceListResult.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Products\\GetPriceList\\GetPriceListResult.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T23:14:09.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Worker.WebScraping\\appsettings.json",
+              "RelativeDocumentMoniker": "GigaHouse.Worker.WebScraping\\appsettings.json",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Worker.WebScraping\\appsettings.json",
+              "RelativeToolTip": "GigaHouse.Worker.WebScraping\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-28T23:28:27.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Worker.WebScraping\\Worker.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Worker.WebScraping\\Worker.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Worker.WebScraping\\Worker.cs",
+              "RelativeToolTip": "GigaHouse.Worker.WebScraping\\Worker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T22:34:57.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "CreateHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Users\\Create\\CreateHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Users\\Create\\CreateHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Users\\Create\\CreateHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Users\\Create\\CreateHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAywCAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:44:59.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "AuthenticateUserHandler.cs",
+              "DocumentMoniker": "C:\\Git\\base\\GigaHouse.Application\\Auth\\AuthenticateUser\\AuthenticateUserHandler.cs",
+              "RelativeDocumentMoniker": "GigaHouse.Application\\Auth\\AuthenticateUser\\AuthenticateUserHandler.cs",
+              "ToolTip": "C:\\Git\\base\\GigaHouse.Application\\Auth\\AuthenticateUser\\AuthenticateUserHandler.cs",
+              "RelativeToolTip": "GigaHouse.Application\\Auth\\AuthenticateUser\\AuthenticateUserHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:01:47.807Z"
             }
           ]
         }

@@ -1,32 +1,77 @@
-version: '3.8'
-
 services:
-  app:
-    image: gigahouseapp:latest 
-    build:
-      context: .
-      dockerfile: Dockerfile
-    environment:
-      ASPNETCORE_ENVIRONMENT: Production
-      ASPNETCORE_CONNECTIONSTRING: Server=mysql;Port=3306;Database=gigahouse;Uid=root;Pwd=@Gigahouse123;
-    ports:
-      - "8080:8080"
-      - "8082:8081"
-    depends_on:
-      - mysql
+  # gigahouse_webapi:
+  #   image: gigahousewebapi 
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   environment:
+  #     - ASPNETCORE_ENVIRONMENT=Production
+  #     - ASPNETCORE_URLS=http://+:8085
+  #     - ConnectionStrings__DefaultConnection=Host=gigahouse_database;Port=5432;Database=gigahouse;Username=admin;Password=saasgigahouse
+  #     - MongoDbSettings__ConnectionString=mongodb://admin:saasgigahouse@gigahouse_nosql:27017
+  #     - MongoDbSettings__DatabaseName=gigahouse
+  #     - MongoDbSettings__CollectionName=Sales
+  #     - RabbitMqSettings__ConnectionString=amqp://amdmin:saasgigahouse@gigahouse_queue:5672
+  #     - RabbitMqSettings__QueueName=Worker-Sales
+  #   ports:
+  #     - "8085:8085"
+  #   depends_on:
+  #     gigahouse_database:
+  #       condition: service_healthy
+  #     gigahouse_queue:
+  #       condition: service_healthy
+  #     gigahouse_nosql:
+  #       condition: service_healthy
+  #   tty: true
 
-  mysql:
-    image: mysql:latest
+  gigahouse_database:
+    image: postgres:13
     environment:
-      MYSQL_DATABASE: gigahouse
-      MYSQL_USER: gigahouse
-      MYSQL_PASSWORD: "@Gigahouse123"
-      MYSQL_ROOT_PASSWORD: "@Gigahouse123"
+      POSTGRES_DB: gigahouse
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: saasgigahouse
     ports:
-      - "3306:3306"
+      - "5432:5432"
     volumes:
-      - mysql_data:/var/lib/mysql
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d gigahouse"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  gigahouse_nosql:
+    image: mongo:8.0
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: saasgigahouse
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017 --quiet
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  gigahouse_queue:
+    image: rabbitmq:3.13-management
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: saasgigahouse
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "check_running"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
 volumes:
-  mysql_data:
-    driver: local
+  postgres_data:
+  mongo_data:
+  rabbitmq_data:

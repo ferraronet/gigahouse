@@ -1,26 +1,23 @@
 ﻿using GigaHouse.Core.Models;
-using GigaHouse.Infrastructure.Models;
 
 namespace GigaHouse.Infrastructure.Interfaces.Services
 {
     public interface ITaskService
     {
-        Task<IEnumerable<TaskViewModel>> GetTasks(int projectId);
+        Task ProcessTasksAsync();
 
-        Task<PaginatedDataViewModel<TaskViewModel>> GetPaginatedTasks(int pageNumber, int pageSize);
+        Task<Data.Domain.Task> CreateAsync(Data.Domain.Task item, CancellationToken cancellationToken = default);
 
-        Task<TaskViewModel> GetTaskById(int id);
+        Task<Data.Domain.Task?> UpdateAsync(Data.Domain.Task item, CancellationToken cancellationToken = default);
 
-        Task<bool> IsExists(string key, string value, int id);
+        Task<Data.Domain.Task?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
 
-        Task<bool> IsExistsForUpdate(int id, string key, string value);
+        Task<Data.Domain.Task?> GetByProjectIdAndProductIdAndLinkAsync(Guid projectId, Guid productId, string link, CancellationToken cancellationToken = default);
+        
+        Task<PaginatedList<Data.Domain.Task>> GetAllActiveTasksAsync(int pageNumber, int pageSize);
 
-        Task<bool> IsExistsForUpdate(int id, string key, string value, int projectId);
+        Task<bool> DeleteAsync(Guid id, CancellationToken cancellationToken = default);
 
-        Task<TaskViewModel> Create(TaskViewModel model);
-
-        Task Update(TaskViewModel model);
-
-        Task Delete(int id);
+        Task<PaginatedList<Data.Domain.Task>> GetAllByProjectIdAndProductId(int pageNumber, int pageSize, Guid projectId, Guid productId, CancellationToken cancellationToken = default);
     }
 }

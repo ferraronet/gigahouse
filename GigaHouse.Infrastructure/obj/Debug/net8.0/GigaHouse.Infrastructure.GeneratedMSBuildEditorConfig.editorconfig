@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GigaHouse.Infrastructure
-build_property.ProjectDir = C:\Git\TaskList\GigaHouse.Infrastructure\
+build_property.ProjectDir = C:\Git\base\GigaHouse.Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

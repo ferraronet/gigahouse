@@ -1,0 +1,13 @@
+C:\Git\base\GigaHouse.Core\bin\Debug\net8.0\GigaHouse.Core.deps.json
+C:\Git\base\GigaHouse.Core\bin\Debug\net8.0\GigaHouse.Core.dll
+C:\Git\base\GigaHouse.Core\bin\Debug\net8.0\GigaHouse.Core.pdb
+C:\Git\base\GigaHouse.Core\obj\Debug\net8.0\GigaHouse.Core.csproj.AssemblyReference.cache
+C:\Git\base\GigaHouse.Core\obj\Debug\net8.0\GigaHouse.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\base\GigaHouse.Core\obj\Debug\net8.0\GigaHouse.Core.AssemblyInfoInputs.cache
+C:\Git\base\GigaHouse.Core\obj\Debug\net8.0\GigaHouse.Core.AssemblyInfo.cs
+C:\Git\base\GigaHouse.Core\obj\Debug\net8.0\GigaHouse.Core.csproj.CoreCompileInputs.cache
+C:\Git\base\GigaHouse.Core\obj\Debug\net8.0\GigaHouse.Core.sourcelink.json
+C:\Git\base\GigaHouse.Core\obj\Debug\net8.0\GigaHouse.Core.dll
+C:\Git\base\GigaHouse.Core\obj\Debug\net8.0\refint\GigaHouse.Core.dll
+C:\Git\base\GigaHouse.Core\obj\Debug\net8.0\GigaHouse.Core.pdb
+C:\Git\base\GigaHouse.Core\obj\Debug\net8.0\ref\GigaHouse.Core.dll

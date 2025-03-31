@@ -1,35 +1,34 @@
-﻿using GigaHouse.Core.Enums;
-using System.ComponentModel.DataAnnotations;
+﻿//using GigaHouse.Core.Enums;
+//using System.ComponentModel.DataAnnotations;
 
-namespace GigaHouse.Infrastructure.Models
-{
-    public class ProjectViewModel
-    {
-        private int _status;
+//namespace GigaHouse.Infrastructure.Models
+//{
+//    public class ProjectViewModel
+//    {
+//        private int _status;
 
-        public ProjectViewModel()
-        {
-            Tasks = new List<TaskViewModel>();
-        }
+//        public ProjectViewModel()
+//        {
+//            Tasks = new List<TaskViewModel>();
+//        }
 
-        public int Id { get; set; }
+//        public Guid Id { get; set; }
 
-        [Required, StringLength(maximumLength: 100, MinimumLength = 2)]
-        public string Name { get; set; } = string.Empty;
+//        [Required, StringLength(maximumLength: 100, MinimumLength = 2)]
+//        public string Name { get; set; } = string.Empty;
 
-        public List<TaskViewModel> Tasks { get; set; }
+//        [Required, StringLength(maximumLength: 100, MinimumLength = 5)]
+//        public string Link { get; set; } = string.Empty;
 
-        public int Status {
-            set
-            {
-                _status = value;
-            }
-        }
+//        public List<TaskViewModel> Tasks { get; set; }
 
-        public string StatusProject => ((ProjectStatus)_status).ToString();
+//        //public int Status {
+//        //    set
+//        //    {
+//        //        _status = value;
+//        //    }
+//        //}
 
-        public DateTime CreatedAt { get; set; }
-
-        public DateTime UpdatedAt { get; set; }
-    }
-}
+//        public string StatusProject => ((ProjectStatus)_status).ToString();
+//    }
+//}

@@ -8,7 +8,7 @@ namespace GigaHouse.TaskList.Models
         public string Name { get; set; } = string.Empty;
 
         [Required]
-        public int ProjectId { get; set; }
+        public Guid ProjectId { get; set; }
 
         public string Description { get; set; } = string.Empty;
     }

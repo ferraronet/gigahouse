@@ -1,21 +1,22 @@
-﻿using GigaHouse.Infrastructure.Models;
+﻿using GigaHouse.Core.Enums;
+using GigaHouse.Core.Models;
+using GigaHouse.Data.Domain;
+using GigaHouse.Infrastructure.Models;
 
 namespace GigaHouse.Infrastructure.Interfaces.Services
 {
     public interface IProjectService
     {
-        Task<IEnumerable<ProjectViewModel>> GetProjects();
+        Task<Project> CreateAsync(Project item, CancellationToken cancellationToken = default);
 
-        Task<ProjectViewModel> GetProjectById(int id);
+        Task<Project?> UpdateAsync(Project item, CancellationToken cancellationToken = default);
 
-        Task<bool> IsExists(string key, string value);
+        Task<Project?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
 
-        Task<bool> IsExistsForUpdate(int id, string key, string value);
+        Task<Project?> GetByNameAsync(string name, CancellationToken cancellationToken = default);
 
-        Task<ProjectViewModel> Create(ProjectViewModel model);
+        Task<bool> DeleteAsync(Guid id, CancellationToken cancellationToken = default);
 
-        Task Update(ProjectViewModel model);
-
-        Task Delete(int id);
+        Task<PaginatedList<Project>> GetAllProjects(int pageNumber = 1, int pageSize = 10, string? name = null, ProjectStatus? status = null, CancellationToken cancellationToken = default);
     }
 }
