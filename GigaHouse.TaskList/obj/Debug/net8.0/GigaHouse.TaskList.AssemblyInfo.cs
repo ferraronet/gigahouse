@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GigaHouse.TaskList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fe47530e26cc218f96977512e6667728fc86bc9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4bb0ab2bf15340d69d460d7964624a203cc7a3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("GigaHouse.TaskList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GigaHouse.TaskList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
