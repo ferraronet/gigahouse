@@ -90,10 +90,7 @@ namespace GigaHouse.Infrastructure.Services
 
         public async Task<PaginatedList<Data.Domain.Task>> GetAllActiveTasksAsync(int pageNumber, int pageSize)
         {
-            var query = @"SELECT *
-                        FROM ""Tasks""
-                        WHERE ""Status"" = 1 
-                          AND (""LastDateSearch"" + INTERVAL '1 day' / ""TimesPerDay"") <= NOW()";
+            var query = @"SELECT * FROM ""Tasks"" WHERE ""Status"" = 1 AND (""LastDateSearch"" + INTERVAL '1 day' / CASE WHEN ""TimesPerDay"" = 0 THEN 1 ELSE ""TimesPerDay"" END) <= NOW()";
 
             var tasks = await _taskRepository.GetPaginatedBySqlQueryAsync<Data.Domain.Task>(query, pageNumber, pageSize);
 

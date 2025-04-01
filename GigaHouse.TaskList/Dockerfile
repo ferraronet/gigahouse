@@ -1,15 +1,18 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-USER app
 WORKDIR /app
 EXPOSE 8085
+
+RUN apt update && apt install -y iproute2 curl
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
+
 COPY ["GigaHouse.TaskList/GigaHouse.TaskList.csproj", "GigaHouse.TaskList/"]
 RUN dotnet restore "./GigaHouse.TaskList/GigaHouse.TaskList.csproj"
 COPY . .
+
 WORKDIR "/src/GigaHouse.TaskList"
 RUN dotnet build "./GigaHouse.TaskList.csproj" -c $BUILD_CONFIGURATION -o /app/build
 

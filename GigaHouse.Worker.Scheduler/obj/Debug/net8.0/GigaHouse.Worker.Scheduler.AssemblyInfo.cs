@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GigaHouse.Worker.Scheduler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4bb0ab2bf15340d69d460d7964624a203cc7a3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+938d6af9a6d5136cf3a32f517b0c44702d75e598")]
 [assembly: System.Reflection.AssemblyProductAttribute("GigaHouse.Worker.Scheduler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GigaHouse.Worker.Scheduler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

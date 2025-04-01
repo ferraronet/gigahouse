@@ -2716,3 +2716,527 @@ LIMIT 1
 2025-03-31 16:10:30.5742 DEBUG The connection queue processing loop for 0HNBGGT05QB6P completed. 
 2025-03-31 16:10:30.5742 DEBUG Connection id "0HNBGGT05QB6P" sending FIN because: "The Socket transport's send loop completed gracefully." 
 2025-03-31 16:10:30.5742 DEBUG Connection id "0HNBGGT05QB6P" stopped. 
+2025-03-31 19:21:33.9181 INFO Init app 
+2025-03-31 19:21:36.5573 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework. 
+2025-03-31 19:21:38.4226 DEBUG Entity Framework Core 9.0.3 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None 
+2025-03-31 19:21:38.5328 DEBUG Creating DbConnection. 
+2025-03-31 19:21:38.8893 DEBUG Created DbConnection. (353ms). 
+2025-03-31 19:21:38.9051 DEBUG Opening connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:39.1871 DEBUG Opened connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:39.2056 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-03-31 19:21:39.2243 DEBUG Created DbCommand for 'ExecuteReader' (17ms). 
+2025-03-31 19:21:39.2314 DEBUG Initialized DbCommand for 'ExecuteReader' (32ms). 
+2025-03-31 19:21:39.2588 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2025-03-31 19:21:39.3318 INFO Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2025-03-31 19:21:39.4312 DEBUG Closing data reader to 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:39.4539 DEBUG A data reader for 'gigahouse' on server 'tcp://localhost:5432' is being disposed after spending 108ms reading results. 
+2025-03-31 19:21:39.4539 DEBUG Closing connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:39.4739 DEBUG Closed connection to database 'gigahouse' on server 'tcp://localhost:5432' (11ms). 
+2025-03-31 19:21:39.8069 DEBUG Migrating using database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:39.8138 DEBUG Opening connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:39.8138 DEBUG Opening connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:39.8601 DEBUG Opened connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:39.8601 DEBUG Closing connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:39.8756 DEBUG Closed connection to database 'gigahouse' on server 'tcp://localhost:5432' (11ms). 
+2025-03-31 19:21:39.8756 DEBUG Opening connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:39.8756 DEBUG Opened connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:39.9822 DEBUG Creating DbCommand for 'ExecuteNonQuery'. 
+2025-03-31 19:21:39.9822 DEBUG Created DbCommand for 'ExecuteNonQuery' (1ms). 
+2025-03-31 19:21:39.9822 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (2ms). 
+2025-03-31 19:21:39.9822 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+); 
+2025-03-31 19:21:40.0028 INFO Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+); 
+2025-03-31 19:21:40.0028 DEBUG Beginning transaction with isolation level 'Unspecified'. 
+2025-03-31 19:21:40.0183 DEBUG Began transaction with isolation level 'ReadCommitted'. 
+2025-03-31 19:21:40.0183 INFO Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long. 
+2025-03-31 19:21:40.0183 DEBUG Creating DbCommand for 'ExecuteNonQuery'. 
+2025-03-31 19:21:40.0183 DEBUG Created DbCommand for 'ExecuteNonQuery' (1ms). 
+2025-03-31 19:21:40.0276 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (3ms). 
+2025-03-31 19:21:40.0276 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE 
+2025-03-31 19:21:40.0276 INFO Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE 
+2025-03-31 19:21:40.0276 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-03-31 19:21:40.0276 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2025-03-31 19:21:40.0276 DEBUG Initialized DbCommand for 'ExecuteReader' (1ms). 
+2025-03-31 19:21:40.0276 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2025-03-31 19:21:40.0276 INFO Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2025-03-31 19:21:40.0276 DEBUG Closing data reader to 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:40.0430 DEBUG A data reader for 'gigahouse' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results. 
+2025-03-31 19:21:40.0430 INFO No migrations were applied. The database is already up to date. 
+2025-03-31 19:21:40.0430 DEBUG Committing transaction. 
+2025-03-31 19:21:40.0667 DEBUG Committed transaction. 
+2025-03-31 19:21:40.0667 DEBUG Disposing transaction. 
+2025-03-31 19:21:40.0667 DEBUG Closing connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:40.0667 DEBUG Closed connection to database 'gigahouse' on server 'tcp://localhost:5432' (1ms). 
+2025-03-31 19:21:40.0769 DEBUG 'AppDbContext' disposed. 
+2025-03-31 19:21:40.0769 DEBUG Disposing connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 19:21:40.0769 DEBUG Disposed connection to database 'gigahouse' on server 'tcp://localhost:5432' (2ms). 
+2025-03-31 19:21:40.1472 INFO Health Check enabled at: '/health' 
+2025-03-31 19:21:40.2863 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-03-31 19:21:40.4198 DEBUG Hosting starting 
+2025-03-31 19:21:40.4794 INFO User profile is available. Using 'C:\Users\ferra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-31 19:21:40.5066 DEBUG Reading data from file 'C:\Users\ferra\AppData\Local\ASP.NET\DataProtection-Keys\key-18b50e0b-5984-4cba-ace7-c362dbf66967.xml'. 
+2025-03-31 19:21:40.5287 DEBUG Found key {18b50e0b-5984-4cba-ace7-c362dbf66967}. 
+2025-03-31 19:21:40.5550 DEBUG Considering key {18b50e0b-5984-4cba-ace7-c362dbf66967} with expiration date 2025-06-06 18:09:46Z as default key. 
+2025-03-31 19:21:40.5620 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-31 19:21:40.5620 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-03-31 19:21:40.5620 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-31 19:21:40.5620 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-03-31 19:21:40.5743 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-03-31 19:21:40.5743 DEBUG Using key {18b50e0b-5984-4cba-ace7-c362dbf66967} as the default key. 
+2025-03-31 19:21:40.5743 DEBUG Key ring with default key {18b50e0b-5984-4cba-ace7-c362dbf66967} was loaded during application startup. 
+2025-03-31 19:21:41.0623 INFO Successfully created bus instance RebusBus Rebus 1 (isDefaultBus: True) 
+2025-03-31 19:21:41.0623 DEBUG Invoking onCreated callback on bus instance RebusBus Rebus 1 
+2025-03-31 19:21:41.0623 DEBUG Starting bus instance RebusBus Rebus 1 
+2025-03-31 19:21:41.3566 DEBUG Using development certificate: CN=localhost (Thumbprint: 9A88E13EBBA4D80868F923DF646A00825267504F) 
+2025-03-31 19:21:41.4372 INFO Now listening on: https://localhost:7065 
+2025-03-31 19:21:41.4372 INFO Now listening on: http://localhost:5057 
+2025-03-31 19:21:41.4372 DEBUG Loaded hosting startup assembly GigaHouse.TaskList 
+2025-03-31 19:21:41.4372 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-03-31 19:21:41.4372 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-03-31 19:21:41.4372 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-31 19:21:41.4372 INFO Hosting environment: Development 
+2025-03-31 19:21:41.4372 INFO Content root path: C:\Git\base\GigaHouse.TaskList 
+2025-03-31 19:21:41.4372 DEBUG Hosting started 
+2025-03-31 19:21:41.5965 DEBUG Connection id "0HNBGK9KQBBKG" accepted. 
+2025-03-31 19:21:41.5965 DEBUG Connection id "0HNBGK9KQBBKH" accepted. 
+2025-03-31 19:21:41.5965 DEBUG Connection id "0HNBGK9KQBBKH" started. 
+2025-03-31 19:21:41.5965 DEBUG Connection id "0HNBGK9KQBBKG" started. 
+2025-03-31 19:21:44.0000 DEBUG Connection id "0HNBGK9KQBBKI" accepted. 
+2025-03-31 19:21:44.0000 DEBUG Connection id "0HNBGK9KQBBKI" started. 
+2025-03-31 19:21:44.0632 DEBUG Connection id "0HNBGK9KQBBKI" received FIN. 
+2025-03-31 19:21:44.1072 DEBUG Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): Erro desconhecido ao processar o certificado.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-31 19:21:44.2426 DEBUG Connection id "0HNBGK9KQBBKI" stopped. 
+2025-03-31 19:21:44.2563 DEBUG Connection id "0HNBGK9KQBBKI" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-31 19:21:47.6009 DEBUG Connection id "0HNBGK9KQBBKJ" accepted. 
+2025-03-31 19:21:47.6009 DEBUG Connection id "0HNBGK9KQBBKJ" started. 
+2025-03-31 19:21:47.6172 DEBUG Connection id "0HNBGK9KQBBKJ" received FIN. 
+2025-03-31 19:21:47.6172 DEBUG Connection id "0HNBGK9KQBBKK" accepted. 
+2025-03-31 19:21:47.6172 DEBUG Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): Erro desconhecido ao processar o certificado.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-31 19:21:47.6172 DEBUG Connection id "0HNBGK9KQBBKK" started. 
+2025-03-31 19:21:47.6223 DEBUG Connection id "0HNBGK9KQBBKJ" stopped. 
+2025-03-31 19:21:47.6223 DEBUG Connection id "0HNBGK9KQBBKJ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-31 19:21:47.6223 DEBUG Connection id "0HNBGK9KQBBKK" received FIN. 
+2025-03-31 19:21:47.6223 DEBUG Failed to authenticate HTTPS connection. System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): Erro desconhecido ao processar o certificado.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-31 19:21:47.6223 DEBUG Connection id "0HNBGK9KQBBKL" accepted. 
+2025-03-31 19:21:47.6461 DEBUG Connection id "0HNBGK9KQBBKK" stopped. 
+2025-03-31 19:21:47.6461 DEBUG Connection id "0HNBGK9KQBBKL" started. 
+2025-03-31 19:21:47.6461 DEBUG Connection id "0HNBGK9KQBBKK" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-31 19:21:47.6680 DEBUG Connection 0HNBGK9KQBBKL established using the following protocol: Tls13 
+2025-03-31 19:21:47.6896 TRACE Connection id "0HNBGK9KQBBKL" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-03-31 19:21:47.6896 TRACE Connection id "0HNBGK9KQBBKL" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-03-31 19:21:47.6896 TRACE Connection id "0HNBGK9KQBBKL" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-03-31 19:21:47.6896 TRACE Connection id "0HNBGK9KQBBKL" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-03-31 19:21:47.6896 TRACE Connection id "0HNBGK9KQBBKL" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-03-31 19:21:47.6896 TRACE Connection id "0HNBGK9KQBBKL" received HEADERS frame for stream ID 1 with length 487 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-03-31 19:21:47.7228 TRACE Connection id "0HNBGK9KQBBKL" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-03-31 19:21:47.7551 INFO Request starting HTTP/2 GET https://localhost:7065/swagger - - - 
+2025-03-31 19:21:47.8931 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-03-31 19:21:47.8931 TRACE All hosts are allowed. 
+2025-03-31 19:21:47.9236 DEBUG No candidates found for the request path '/swagger' 
+2025-03-31 19:21:47.9236 DEBUG Request did not match any endpoints 
+2025-03-31 19:21:48.0127 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-03-31 19:21:48.0413 TRACE Connection id "0HNBGK9KQBBKL" sending HEADERS frame for stream ID 1 with length 69 and flags END_STREAM, END_HEADERS. 
+2025-03-31 19:21:48.0427 INFO Request finished HTTP/2 GET https://localhost:7065/swagger - 301 0 - 298.9997ms 
+2025-03-31 19:21:48.0427 TRACE Connection id "0HNBGK9KQBBKL" received HEADERS frame for stream ID 3 with length 38 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-03-31 19:21:48.0427 INFO Request starting HTTP/2 GET https://localhost:7065/swagger/index.html - - - 
+2025-03-31 19:21:48.0427 TRACE All hosts are allowed. 
+2025-03-31 19:21:48.0427 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-03-31 19:21:48.0427 DEBUG Request did not match any endpoints 
+2025-03-31 19:21:48.0427 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-03-31 19:21:48.1644 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-03-31 19:21:48.1644 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-03-31 19:21:48.1644 TRACE Connection id "0HNBGK9KQBBKL" sending HEADERS frame for stream ID 3 with length 28 and flags END_HEADERS. 
+2025-03-31 19:21:48.1805 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 3 with length 4096 and flags NONE. 
+2025-03-31 19:21:48.1906 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 3 with length 998 and flags NONE. 
+2025-03-31 19:21:48.1906 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 3 with length 81 and flags NONE. 
+2025-03-31 19:21:48.1906 TRACE Connection id "0HNBGK9KQBBKL" received HEADERS frame for stream ID 5 with length 113 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-03-31 19:21:48.1906 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-03-31 19:21:48.1906 TRACE Connection id "0HNBGK9KQBBKL" received HEADERS frame for stream ID 7 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-03-31 19:21:48.1906 INFO Request starting HTTP/2 GET https://localhost:7065/swagger/swagger-ui.css - - - 
+2025-03-31 19:21:48.1906 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-03-31 19:21:48.1906 TRACE Connection id "0HNBGK9KQBBKL" received HEADERS frame for stream ID 9 with length 51 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-03-31 19:21:48.2036 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2025-03-31 19:21:48.1906 INFO Request starting HTTP/2 GET https://localhost:7065/swagger/swagger-ui-bundle.js - - - 
+2025-03-31 19:21:48.2036 INFO Request finished HTTP/2 GET https://localhost:7065/swagger/index.html - 200 - text/html;charset=utf-8 148.4872ms 
+2025-03-31 19:21:48.1906 TRACE All hosts are allowed. 
+2025-03-31 19:21:48.2036 INFO Request starting HTTP/2 GET https://localhost:7065/swagger/swagger-ui-standalone-preset.js - - - 
+2025-03-31 19:21:48.2036 TRACE Connection id "0HNBGK9KQBBKL" received HEADERS frame for stream ID 11 with length 52 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-03-31 19:21:48.2036 TRACE All hosts are allowed. 
+2025-03-31 19:21:48.2036 DEBUG No candidates found for the request path '/swagger/swagger-ui.css' 
+2025-03-31 19:21:48.2036 TRACE All hosts are allowed. 
+2025-03-31 19:21:48.2036 TRACE Connection id "0HNBGK9KQBBKL" received HEADERS frame for stream ID 13 with length 33 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-03-31 19:21:48.2036 INFO Request starting HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-31 19:21:48.2036 DEBUG No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2025-03-31 19:21:48.2036 DEBUG No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2025-03-31 19:21:48.2156 DEBUG Request did not match any endpoints 
+2025-03-31 19:21:48.2156 INFO Request starting HTTP/2 GET https://localhost:7065/_vs/browserLink - - - 
+2025-03-31 19:21:48.2156 DEBUG Request did not match any endpoints 
+2025-03-31 19:21:48.2036 DEBUG Request did not match any endpoints 
+2025-03-31 19:21:48.2156 TRACE Connection id "0HNBGK9KQBBKL" sending HEADERS frame for stream ID 11 with length 60 and flags END_HEADERS. 
+2025-03-31 19:21:48.2156 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 11 with length 13772 and flags NONE. 
+2025-03-31 19:21:48.2156 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-03-31 19:21:48.2156 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-03-31 19:21:48.2156 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-03-31 19:21:48.2156 INFO Request finished HTTP/2 GET https://localhost:7065/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript;+charset=utf-8 10.9808ms 
+2025-03-31 19:21:48.2156 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2025-03-31 19:21:48.2353 TRACE Range header's value is empty. 
+2025-03-31 19:21:48.2353 TRACE Range header's value is empty. 
+2025-03-31 19:21:48.2353 TRACE Range header's value is empty. 
+2025-03-31 19:21:48.2353 TRACE Connection id "0HNBGK9KQBBKL" sending HEADERS frame for stream ID 5 with length 79 and flags END_HEADERS. 
+2025-03-31 19:21:48.2353 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2353 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2353 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2465 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2465 TRACE Connection id "0HNBGK9KQBBKL" sending HEADERS frame for stream ID 7 with length 51 and flags END_HEADERS. 
+2025-03-31 19:21:48.2465 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2465 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2465 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2465 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2465 TRACE Connection id "0HNBGK9KQBBKL" sending HEADERS frame for stream ID 9 with length 34 and flags END_HEADERS. 
+2025-03-31 19:21:48.2465 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2465 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2465 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2465 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2681 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2681 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2681 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2681 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2681 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2681 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2681 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2681 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 5 with length 12871 and flags NONE. 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2779 INFO Request finished HTTP/2 GET https://localhost:7065/swagger/swagger-ui.css - 200 143943 text/css 97.9481ms 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending HEADERS frame for stream ID 13 with length 119 and flags END_HEADERS. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 9986 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.2931 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 11806 and flags NONE. 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3094 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3094 INFO Request finished HTTP/2 GET https://localhost:7065/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 112.4480ms 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3094 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3248 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3405 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3560 INFO Request finished HTTP/2 GET https://localhost:7065/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 146.0335ms 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 13 with length 160 and flags END_STREAM. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3560 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3711 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.3711 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 14801 and flags NONE. 
+2025-03-31 19:21:48.3711 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-31 19:21:48.3711 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2025-03-31 19:21:48.3711 INFO Request finished HTTP/2 GET https://localhost:7065/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 178.6801ms 
+2025-03-31 19:21:48.6000 TRACE Connection id "0HNBGK9KQBBKL" received HEADERS frame for stream ID 15 with length 74 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-03-31 19:21:48.6000 INFO Request starting HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - - - 
+2025-03-31 19:21:48.6000 TRACE All hosts are allowed. 
+2025-03-31 19:21:48.6052 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-03-31 19:21:48.6052 DEBUG Request did not match any endpoints 
+2025-03-31 19:21:48.6052 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-03-31 19:21:48.6226 TRACE Connection id "0HNBGK9KQBBKL" received HEADERS frame for stream ID 17 with length 97 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-03-31 19:21:48.6226 INFO Request starting HTTP/2 GET https://localhost:7065/swagger/favicon-32x32.png - - - 
+2025-03-31 19:21:48.6226 TRACE All hosts are allowed. 
+2025-03-31 19:21:48.6226 DEBUG No candidates found for the request path '/swagger/favicon-32x32.png' 
+2025-03-31 19:21:48.6226 DEBUG Request did not match any endpoints 
+2025-03-31 19:21:48.6226 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-03-31 19:21:48.6226 TRACE Range header's value is empty. 
+2025-03-31 19:21:48.6226 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-31 19:21:48.6226 TRACE Connection id "0HNBGK9KQBBKL" sending HEADERS frame for stream ID 17 with length 71 and flags END_HEADERS. 
+2025-03-31 19:21:48.6226 INFO Request finished HTTP/2 GET https://localhost:7065/swagger/favicon-32x32.png - 200 628 image/png 6.0664ms 
+2025-03-31 19:21:48.6226 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 17 with length 628 and flags NONE. 
+2025-03-31 19:21:48.6226 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 17 with length 0 and flags END_STREAM. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending HEADERS frame for stream ID 15 with length 35 and flags END_HEADERS. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 15 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 15 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 15 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 15 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 15 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 15 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 15 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 15 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 15 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 15 with length 16384 and flags NONE. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 15 with length 8599 and flags NONE. 
+2025-03-31 19:21:48.8576 TRACE Connection id "0HNBGK9KQBBKL" sending DATA frame for stream ID 15 with length 0 and flags END_STREAM. 
+2025-03-31 19:21:48.8576 INFO Request finished HTTP/2 GET https://localhost:7065/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 266.6488ms 
+2025-03-31 19:21:51.6336 DEBUG Authentication of the HTTPS connection timed out. 
+2025-03-31 19:21:51.6336 DEBUG Authentication of the HTTPS connection timed out. 
+2025-03-31 19:21:51.6336 DEBUG Connection id "0HNBGK9KQBBKG" stopped. 
+2025-03-31 19:21:51.6336 DEBUG Connection id "0HNBGK9KQBBKH" stopped. 
+2025-03-31 19:21:51.6366 DEBUG Connection id "0HNBGK9KQBBKG" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-31 19:21:51.6366 DEBUG Connection id "0HNBGK9KQBBKH" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-31 19:21:58.1678 DEBUG Connection id "0HNBGK9KQBBKL" received FIN. 
+2025-03-31 19:21:58.1690 DEBUG Connection id "0HNBGK9KQBBKL" is closed. The last processed stream ID was 17. 
+2025-03-31 19:21:58.1690 DEBUG Connection id "0HNBGK9KQBBKL" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-31 19:21:58.1690 DEBUG The connection queue processing loop for 0HNBGK9KQBBKL completed. 
+2025-03-31 19:21:58.1690 DEBUG Connection id "0HNBGK9KQBBKL" stopped. 
+2025-03-31 20:09:51.5895 INFO Init app 
+2025-03-31 20:09:58.8913 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework. 
+2025-03-31 20:10:01.1781 DEBUG Entity Framework Core 9.0.3 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None 
+2025-03-31 20:10:01.2158 DEBUG Creating DbConnection. 
+2025-03-31 20:10:01.2978 DEBUG Created DbConnection. (77ms). 
+2025-03-31 20:10:01.3090 DEBUG Opening connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:01.5313 DEBUG Opened connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:01.5313 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-03-31 20:10:01.5479 DEBUG Created DbCommand for 'ExecuteReader' (8ms). 
+2025-03-31 20:10:01.5594 DEBUG Initialized DbCommand for 'ExecuteReader' (20ms). 
+2025-03-31 20:10:01.5594 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2025-03-31 20:10:01.6161 INFO Executed DbCommand (45ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2025-03-31 20:10:01.6725 DEBUG Closing data reader to 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:01.6845 DEBUG A data reader for 'gigahouse' on server 'tcp://localhost:5432' is being disposed after spending 61ms reading results. 
+2025-03-31 20:10:01.6845 DEBUG Closing connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:01.6845 DEBUG Closed connection to database 'gigahouse' on server 'tcp://localhost:5432' (5ms). 
+2025-03-31 20:10:01.8934 DEBUG Migrating using database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:01.8934 DEBUG Opening connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:01.8934 DEBUG Opening connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:01.9238 DEBUG Opened connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:01.9238 DEBUG Closing connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:01.9238 DEBUG Closed connection to database 'gigahouse' on server 'tcp://localhost:5432' (7ms). 
+2025-03-31 20:10:01.9341 DEBUG Opening connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:01.9341 DEBUG Opened connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:02.0089 DEBUG Creating DbCommand for 'ExecuteNonQuery'. 
+2025-03-31 20:10:02.0089 DEBUG Created DbCommand for 'ExecuteNonQuery' (1ms). 
+2025-03-31 20:10:02.0089 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (1ms). 
+2025-03-31 20:10:02.0120 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+); 
+2025-03-31 20:10:02.0120 INFO Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+); 
+2025-03-31 20:10:02.0284 DEBUG Beginning transaction with isolation level 'Unspecified'. 
+2025-03-31 20:10:02.0284 DEBUG Began transaction with isolation level 'ReadCommitted'. 
+2025-03-31 20:10:02.0284 INFO Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long. 
+2025-03-31 20:10:02.0284 DEBUG Creating DbCommand for 'ExecuteNonQuery'. 
+2025-03-31 20:10:02.0284 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2025-03-31 20:10:02.0427 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (4ms). 
+2025-03-31 20:10:02.0427 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE 
+2025-03-31 20:10:02.0427 INFO Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE 
+2025-03-31 20:10:02.0427 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-03-31 20:10:02.0427 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2025-03-31 20:10:02.0427 DEBUG Initialized DbCommand for 'ExecuteReader' (1ms). 
+2025-03-31 20:10:02.0427 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2025-03-31 20:10:02.0427 INFO Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2025-03-31 20:10:02.0427 DEBUG Closing data reader to 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:02.0427 DEBUG A data reader for 'gigahouse' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results. 
+2025-03-31 20:10:02.0623 INFO No migrations were applied. The database is already up to date. 
+2025-03-31 20:10:02.0623 DEBUG Committing transaction. 
+2025-03-31 20:10:02.0746 DEBUG Committed transaction. 
+2025-03-31 20:10:02.0746 DEBUG Disposing transaction. 
+2025-03-31 20:10:02.0746 DEBUG Closing connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:02.0746 DEBUG Closed connection to database 'gigahouse' on server 'tcp://localhost:5432' (0ms). 
+2025-03-31 20:10:02.0746 DEBUG 'AppDbContext' disposed. 
+2025-03-31 20:10:02.0746 DEBUG Disposing connection to database 'gigahouse' on server 'tcp://localhost:5432'. 
+2025-03-31 20:10:02.0746 DEBUG Disposed connection to database 'gigahouse' on server 'tcp://localhost:5432' (2ms). 
+2025-03-31 20:10:02.1220 INFO Health Check enabled at: '/health' 
+2025-03-31 20:10:02.2469 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-03-31 20:10:02.3771 DEBUG Hosting starting 
+2025-03-31 20:10:02.4836 INFO User profile is available. Using 'C:\Users\ferra\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-31 20:10:02.5206 DEBUG Reading data from file 'C:\Users\ferra\AppData\Local\ASP.NET\DataProtection-Keys\key-18b50e0b-5984-4cba-ace7-c362dbf66967.xml'. 
+2025-03-31 20:10:02.5566 DEBUG Found key {18b50e0b-5984-4cba-ace7-c362dbf66967}. 
+2025-03-31 20:10:02.5969 DEBUG Considering key {18b50e0b-5984-4cba-ace7-c362dbf66967} with expiration date 2025-06-06 18:09:46Z as default key. 
+2025-03-31 20:10:02.5969 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-31 20:10:02.6066 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-03-31 20:10:02.6066 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-31 20:10:02.6066 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-03-31 20:10:02.6066 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-03-31 20:10:02.6066 DEBUG Using key {18b50e0b-5984-4cba-ace7-c362dbf66967} as the default key. 
+2025-03-31 20:10:02.6230 DEBUG Key ring with default key {18b50e0b-5984-4cba-ace7-c362dbf66967} was loaded during application startup. 
+2025-03-31 20:10:03.2124 INFO Successfully created bus instance RebusBus Rebus 1 (isDefaultBus: True) 
+2025-03-31 20:10:03.2124 DEBUG Invoking onCreated callback on bus instance RebusBus Rebus 1 
+2025-03-31 20:10:03.2152 DEBUG Starting bus instance RebusBus Rebus 1 
+2025-03-31 20:10:03.5048 DEBUG Using development certificate: CN=localhost (Thumbprint: 9A88E13EBBA4D80868F923DF646A00825267504F) 
+2025-03-31 20:10:03.5468 ERROR Hosting failed to start System.IO.IOException: Failed to bind to address http://[::1]:5057: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta).
+ ---> System.Net.Sockets.SocketException (10048): Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta).
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-03-31 20:10:03.8201 ERROR Stopped program because of exception System.IO.IOException: Failed to bind to address http://[::1]:5057: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta).
+ ---> System.Net.Sockets.SocketException (10048): Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta).
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.Main(String[] args) in C:\Git\base\GigaHouse.TaskList\Program.cs:line 147
