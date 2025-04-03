@@ -14,6 +14,7 @@ using GigaHouse.Infrastructure.Models.Caches;
 using GigaHouse.Infrastructure.MongoDB;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson;
+using AngleSharp.Dom;
 
 namespace GigaHouse.Infrastructure.Services
 {
@@ -42,23 +43,66 @@ namespace GigaHouse.Infrastructure.Services
         {
             using var driver = _driverFactory.Create();
             driver.Navigate().GoToUrl(url);
+            WaitForPageLoad(driver);
 
             var taskHistory = new TaskHistory();
 
-            ExtractElementValue<int>(projectCssSelector.VendorUnits, driver, value => taskHistory.VendorUnits = value);
-            ExtractElementValue<string>(projectCssSelector.Vendor, driver, value => taskHistory.Vendor = value);
-            ExtractElementValue<decimal>(projectCssSelector.ShippingPrice, driver, value => taskHistory.ShippingPrice = value);
-            ExtractElementValue<string>(projectCssSelector.Announcement, driver, value => taskHistory.Announcement = value);
-            ExtractElementValue<string>(projectCssSelector.BreadCrumb, driver, value => taskHistory.BreadCrumb = value);
-            ExtractElementValue<string>(projectCssSelector.Coupon, driver, value => taskHistory.Coupon = value);
-            ExtractElementValue<int>(projectCssSelector.Installments, driver, value => taskHistory.Installments = value);
-            ExtractElementValue<decimal>(projectCssSelector.InstallmentPrice, driver, value => taskHistory.InstallmentPrice = value);
-            ExtractElementValue<decimal>(projectCssSelector.ProductPrice, driver, value => taskHistory.ProductPrice = value);
-            ExtractElementValue<string>(projectCssSelector.Thermometer, driver, value => taskHistory.Thermometer = value);
-            ExtractElementValue<double>(projectCssSelector.Rating, driver, value => taskHistory.Rating = value);
-            ExtractElementValue<bool>(projectCssSelector.IsFull, driver, value => taskHistory.IsFull = value);
-            ExtractElementValue<bool>(projectCssSelector.FreeShipping, driver, value => taskHistory.IsFreeShipping = value);
-            ExtractElementValue<string>(projectCssSelector.RatingCount, driver, value => taskHistory.RatingCount = value);
+            var hasErrorVendorUnits = ExtractElementValue<int>(_logger, projectCssSelector.VendorUnits, driver, value => taskHistory.VendorUnits = value);
+            var hasErrorVendor = ExtractElementValue<string>(_logger, projectCssSelector.Vendor, driver, value => taskHistory.Vendor = value);
+            var hasErrorShippingPrice = ExtractElementValue<decimal>(_logger, projectCssSelector.ShippingPrice, driver, value => taskHistory.ShippingPrice = value);
+            var hasErrorAnnouncement = ExtractElementValue<string>(_logger, projectCssSelector.Announcement, driver, value => taskHistory.Announcement = value);
+            var hasErrorBreadCrumb = ExtractElementValue<string>(_logger, projectCssSelector.BreadCrumb, driver, value => taskHistory.BreadCrumb = value, "href");
+            var hasErrorCoupon = ExtractElementValue<string>(_logger, projectCssSelector.Coupon, driver, value => taskHistory.Coupon = value);
+            var hasErrorInstallments = ExtractElementValue<int>(_logger, projectCssSelector.Installments, driver, value => taskHistory.Installments = value);
+            var hasErrorInstallmentPrice = ExtractElementValue<decimal>(_logger, projectCssSelector.InstallmentPrice, driver, value => taskHistory.InstallmentPrice = value);
+            var hasErrorProductPrice = ExtractElementValue<decimal>(_logger, projectCssSelector.ProductPrice, driver, value => taskHistory.ProductPrice = value);
+            var hasErrorThermometer = ExtractElementValue<string>(_logger, projectCssSelector.Thermometer, driver, value => taskHistory.Thermometer = value);
+            var hasErrorRating = ExtractElementValue<double>(_logger, projectCssSelector.Rating, driver, value => taskHistory.Rating = value);
+            var hasErrorIsFull = ExtractElementValue<bool>(_logger, projectCssSelector.IsFull, driver, value => taskHistory.IsFull = value);
+            var hasErrorFreeShipping = ExtractElementValue<bool>(_logger, projectCssSelector.FreeShipping, driver, value => taskHistory.IsFreeShipping = value);
+            var hasErrorRatingCount = ExtractElementValue<string>(_logger, projectCssSelector.RatingCount, driver, value => taskHistory.RatingCount = value);
+
+            if(hasErrorVendorUnits) 
+                ExtractElementValue<int>(_logger, projectCssSelector.VendorUnits, driver, value => taskHistory.VendorUnits = value);
+
+            if(hasErrorVendor)
+                ExtractElementValue<string>(_logger, projectCssSelector.Vendor, driver, value => taskHistory.Vendor = value);
+
+            if(hasErrorShippingPrice)
+                ExtractElementValue<decimal>(_logger, projectCssSelector.ShippingPrice, driver, value => taskHistory.ShippingPrice = value);
+
+            if(hasErrorAnnouncement)
+                ExtractElementValue<string>(_logger, projectCssSelector.Announcement, driver, value => taskHistory.Announcement = value);
+
+            if(hasErrorBreadCrumb)
+                ExtractElementValue<string>(_logger, projectCssSelector.BreadCrumb, driver, value => taskHistory.BreadCrumb = value, "href");
+
+            if(hasErrorCoupon)
+                ExtractElementValue<string>(_logger, projectCssSelector.Coupon, driver, value => taskHistory.Coupon = value);
+
+            if(hasErrorInstallments)
+                ExtractElementValue<int>(_logger, projectCssSelector.Installments, driver, value => taskHistory.Installments = value);
+
+            if(hasErrorInstallmentPrice)
+                ExtractElementValue<decimal>(_logger, projectCssSelector.InstallmentPrice, driver, value => taskHistory.InstallmentPrice = value);
+
+            if(hasErrorProductPrice)
+                ExtractElementValue<decimal>(_logger, projectCssSelector.ProductPrice, driver, value => taskHistory.ProductPrice = value);
+
+            if(hasErrorThermometer)
+                ExtractElementValue<string>(_logger, projectCssSelector.Thermometer, driver, value => taskHistory.Thermometer = value);
+
+            if(hasErrorRating)
+                ExtractElementValue<double>(_logger, projectCssSelector.Rating, driver, value => taskHistory.Rating = value);
+
+            if(hasErrorIsFull)
+                ExtractElementValue<bool>(_logger, projectCssSelector.IsFull, driver, value => taskHistory.IsFull = value);
+
+            if(hasErrorFreeShipping)
+                ExtractElementValue<bool>(_logger, projectCssSelector.FreeShipping, driver, value => taskHistory.IsFreeShipping = value);
+
+            if(hasErrorRatingCount)
+                ExtractElementValue<string>(_logger, projectCssSelector.RatingCount, driver, value => taskHistory.RatingCount = value);
 
             taskHistory.CreatedAt = DateTime.Now;
             taskHistory.UpdatedAt = DateTime.Now;
@@ -66,11 +110,19 @@ namespace GigaHouse.Infrastructure.Services
             return taskHistory;
         }
 
-        private static void ExtractElementValue<T>(string selector, IWebDriver driver, Action<T> setValue)
+        private void WaitForPageLoad(IWebDriver driver)
         {
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(15));
+            wait.Until(drv => ((IJavaScriptExecutor)drv).ExecuteScript("return document.readyState").Equals("complete"));
+        }
+
+        private static bool ExtractElementValue<T>(ILogger<TaskScrapingEvent> logger, string selector, IWebDriver driver, Action<T> setValue, string? attribute = null)
+        {
+            bool hasError = false;
+
             try
             {
-                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
+                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
 
                 string[] xpathArray = selector.Split(';');
                 string text = "";
@@ -80,11 +132,24 @@ namespace GigaHouse.Infrastructure.Services
                     try
                     {
                         if (!string.IsNullOrEmpty(xpath.Trim()))
-                            text += wait.Until(drv => drv.FindElement(By.XPath(xpath.Trim()))).Text.Trim();
-                    }
-                    catch (Exception)
-                    {
+                        {
+                            IWebElement element;
 
+                            if (xpath.Trim().StartsWith("/"))
+                                element = wait.Until(drv => drv.FindElement(By.XPath(xpath.Trim())));
+                            else
+                                element = wait.Until(drv => drv.FindElement(By.CssSelector(xpath.Trim())));
+
+                            string? value = !string.IsNullOrEmpty(attribute) ? element.GetAttribute(attribute) : element.Text;
+
+                            if (!string.IsNullOrEmpty(value))
+                                text += value.Trim();
+                        }
+                    }
+                    catch (Exception errorXpath)
+                    {
+                        hasError = true;
+                        logger.LogInformation($"{errorXpath.Message}: {xpath}");
                     }
                 }
 
@@ -94,10 +159,10 @@ namespace GigaHouse.Infrastructure.Services
                 }
                 else if (typeof(T) == typeof(int))
                 {
-                    var match = System.Text.RegularExpressions.Regex.Match(text, @"(\d+)x");
+                    var match = System.Text.RegularExpressions.Regex.Match(text, @"\d+");
                     if (match.Success)
                     {
-                        var parsedValue = int.TryParse(match.Groups[1].Value, out var intValue) ? intValue : default;
+                        var parsedValue = int.TryParse(match.Groups[0].Value, out var intValue) ? intValue : default;
                         setValue((T)(object)parsedValue);
                     }
                 }
@@ -111,8 +176,11 @@ namespace GigaHouse.Infrastructure.Services
             }
             catch (Exception error)
             {
-
+                hasError = true;
+                logger.LogInformation(error.Message);
             }
+
+            return hasError;
         }
 
         public static T? GetElementValue<T>(string text)
@@ -174,8 +242,29 @@ namespace GigaHouse.Infrastructure.Services
 
                                 await _taskHistoryService.CreateAsync(taskHistory);
 
+                                if (taskHistory.Installments == null || taskHistory.InstallmentPrice == null || taskHistory.Vendor == null || taskHistory.VendorUnits == null)
+                                {
+                                    var lastRecord = await _taskHistoryService.GetLastHistoryTaskByTaskIdAsync(taskHistory.TaskId, (decimal)taskHistory.ProductPrice);
+
+                                    if (lastRecord != null)
+                                    {
+                                        if (taskHistory.Installments == null)
+                                            taskHistory.Installments = lastRecord.Installments;
+
+                                        if (taskHistory.InstallmentPrice == null)
+                                            taskHistory.InstallmentPrice = lastRecord.InstallmentPrice;
+
+                                        if (taskHistory.Vendor == null)
+                                            taskHistory.Vendor = lastRecord.Vendor;
+
+                                        if (taskHistory.VendorUnits == null)
+                                            taskHistory.VendorUnits = lastRecord.VendorUnits;
+                                    }
+                                }
+
                                 task.UpdatedAt = DateTime.Now;
                                 task.LastDateSearch = DateTime.Now;
+
                                 await _taskService.UpdateAsync(task);
 
                                 var requestLog = await _requestLogService.GetRequestByIdAsync(task.ProductId.ToString());

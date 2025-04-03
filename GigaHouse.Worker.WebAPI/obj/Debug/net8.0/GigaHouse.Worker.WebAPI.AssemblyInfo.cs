@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GigaHouse.Worker.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4bb0ab2bf15340d69d460d7964624a203cc7a3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c727f47f9f10a22a58ee23d8c3a7fbe905c00e9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GigaHouse.Worker.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GigaHouse.Worker.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

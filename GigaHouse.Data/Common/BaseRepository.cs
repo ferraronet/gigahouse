@@ -22,6 +22,19 @@ namespace GigaHouse.Core.Bases
             return await _dbContext.Set<T>().AsNoTracking().ToListAsync();
         }
 
+        public async Task<IEnumerable<T>> GetAllAsync(Func<IQueryable<T>, IQueryable<T>>? filter = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null)
+        {
+            IQueryable<T> query = _dbContext.Set<T>().AsNoTracking();
+
+            if (filter != null)
+                query = filter(query);
+
+            if (orderBy != null)
+                query = orderBy(query);
+
+            return await query.ToListAsync();
+        }
+
         public async Task<PaginatedList<T>> GetPaginatedAsync(int pageNumber, int pageSize, Func<IQueryable<T>, IQueryable<T>>? filter = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null)
         {
             IQueryable<T> query = _dbContext.Set<T>().AsNoTracking();
@@ -39,6 +52,7 @@ namespace GigaHouse.Core.Bases
                                    .AsNoTracking()
                                    .ToListAsync();
         }
+
         public async Task<PaginatedList<T>> GetPaginatedBySqlQueryAsync<T>(string sqlQuery, int pageNumber, int pageSize, params object[] parameters) where T : class
         {
             var query = _dbContext.Set<T>()

@@ -7,6 +7,8 @@ namespace GigaHouse.Data.Interfaces
     {
         Task<IEnumerable<T>> GetAllAsync();
 
+        Task<IEnumerable<T>> GetAllAsync(Func<IQueryable<T>, IQueryable<T>>? filter = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null);
+
         Task<PaginatedList<T>> GetPaginatedAsync(int pageNumber, int pageSize, Func<IQueryable<T>, IQueryable<T>>? filter = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null);
 
         Task<T> GetByIdAsync<Tid>(Tid id, params Expression<Func<T, object>>[] includes);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GigaHouse.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+938d6af9a6d5136cf3a32f517b0c44702d75e598")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c727f47f9f10a22a58ee23d8c3a7fbe905c00e9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GigaHouse.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GigaHouse.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
